@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="root_actions" model="ir.actions.client">
+            <field name="name">P-Plugin Root Actions</field>
+            <field name="tag">p.RootView</field>
+            <field name="res_model">p.base</field>
+        </record>
+    </data>
+</odoo>

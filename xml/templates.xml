@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="p_web_template" inherit_id="web.layout">
+            <xpath expr="//head/title" position="after">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/devextreme-quill/1.5.12/dx-quill.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/devextreme/21.2.6/js/dx.all.js"></script>
+                <script src="/p-plugin/static/src/lib/dx-react.js"></script>
+
+                <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/21.2.6/css/dx.light.css" />
+            </xpath>
+        </template>
+    </data>
+</odoo>

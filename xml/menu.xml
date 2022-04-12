@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <menuitem id="root_actions_menu" name="P-Plugin" sequence="11" action="root_actions"/>
+    </data>
+</odoo>
